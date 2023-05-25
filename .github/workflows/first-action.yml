@@ -10,3 +10,12 @@ jobs:
         run: echo "goodbye !"
       - name: Print hello
         run: echo "welcome"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "hello world"
+      - name: Print goodbye
+        run: echo "goodbye !"
+      - name: Print hello
+        run: echo "welcome"
