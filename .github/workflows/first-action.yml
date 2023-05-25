@@ -2,7 +2,6 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   test:
-  first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
@@ -12,7 +11,6 @@ jobs:
       - name: Print hello
         run: echo "welcome"
   deploy:      
-  second-job:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
@@ -21,3 +19,6 @@ jobs:
         run: echo "goodbye !"
       - name: Print hello
         run: echo "welcome"
+
+
+        
